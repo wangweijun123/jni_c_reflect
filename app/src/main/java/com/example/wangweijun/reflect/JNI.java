@@ -25,4 +25,5 @@ public class JNI {
 
     public native void callbackString();
 
+//    public native void callbackString(String str);
 }

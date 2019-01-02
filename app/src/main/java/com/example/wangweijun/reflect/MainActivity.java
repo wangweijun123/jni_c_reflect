@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         jni.callbackString();
     }
 
+    public void callbackString2(View view) {
+//        jni.callbackString("中国你好");
+    }
+
     public void showToast(String s) {
         Toast.makeText(this, s, Toast.LENGTH_LONG).show();
     }
